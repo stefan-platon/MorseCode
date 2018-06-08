@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MorseCode</string>
+    <string name="action_settings">Settings</string>
+    <string name="to_be_translated">To be translated...</string>
+    <string name="textview">TextView</string>
+    <string name="translateimg">translateImg</string>
+    <string name="reverseimg">reverseImg</string>
+    <string name="alpha_to_morse">Alpha to Morse</string>
+    <string name="translated_text">Translated text...</string>
+    <string name="ledimg">ledImg</string>
+    <string name="welcome">Welcome</string>
+    <string name="title_activity_message">Message</string>
+</resources>

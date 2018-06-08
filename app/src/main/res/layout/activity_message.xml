@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.morsecode.Message">
+
+    <include
+        layout="@layout/content_message"
+        android:layout_height="435dp"
+        app:layout_anchor="@+id/back"
+        app:layout_anchorGravity="left|center" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:scaleType="fitXY"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/back2" />
+
+</android.support.design.widget.CoordinatorLayout>

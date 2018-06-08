@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.morsecode.MorseCode"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_morse_code">
+
+    <EditText
+        android:id="@+id/toBeTr"
+        android:layout_width="246dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="292dp"
+        android:ems="20"
+        android:hint="@string/to_be_translated"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="24sp"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/translated"
+        android:layout_width="248dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="404dp"
+        android:ems="20"
+        android:hint="@string/translated_text"
+        android:inputType="none|text"
+        android:singleLine="false"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="24sp"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="331dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="75sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letter"
+        android:layout_width="166dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="55sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/morse"
+        android:layout_width="166dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="55sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/translateBtn"
+        android:layout_width="63dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/translate"
+        android:contentDescription="@string/translateimg"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/translate" />
+
+    <ImageButton
+        android:id="@+id/reverseBtn"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="404dp"
+        android:background="@drawable/reverse"
+        android:contentDescription="@string/reverseimg"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reverse" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="228dp"
+        android:text="@string/alpha_to_morse"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
